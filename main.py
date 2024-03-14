@@ -173,7 +173,7 @@ async def stream_chat(prompt: dict = Body(...), username: str = Depends(get_curr
 
 #         conversation_entry = [{"message": prompt["prompt"] + ":" + completion.strip(),
 #                                "timestamp": datetime.now().isoformat()}]
-#         # Assuming you have defined supabase client somewhere
+#         
 #         result = supabase.table("chat_logs").upsert(conversation_entry).execute()
 
 #         if result:
