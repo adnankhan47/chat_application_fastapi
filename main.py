@@ -17,11 +17,6 @@ app = FastAPI()
 
 load_dotenv()
 
-# JWT_SECRET = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
-# supabase_url = "https://claaenmfimnmsaxsvobz.supabase.co"
-# supabase_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNsYWFlbm1maW1ubXNheHN2b2J6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDM0NTYwNDEsImV4cCI6MjAxOTAzMjA0MX0.JJ5X6KayhSP1ZQKuYengZKjLaVqCN14nrSpzfiSqVcQ"
-# openai_api_key = "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"
-
 JWT_SECRET = os.getenv("JWT_SECRET")
 supabase_url = os.getenv("SUPABASEURL")
 supabase_key = os.getenv("SUPABASEKEY")
